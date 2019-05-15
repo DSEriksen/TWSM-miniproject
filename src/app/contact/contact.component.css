@@ -1,0 +1,7 @@
+#cardContainer{
+  width:50%;
+}
+
+mat-card{
+  margin-top: 1rem;
+}

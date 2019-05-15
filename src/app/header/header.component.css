@@ -1,0 +1,17 @@
+.app-header {
+  padding: 10px;
+  background-color: hsl(0, 0%, 1%);
+}
+
+.app-title {
+  color: #ffffff;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+p{
+  color:white;
+}
+
+button{
+  margin:1rem;
+}

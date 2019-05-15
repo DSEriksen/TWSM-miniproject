@@ -1,0 +1,11 @@
+main{
+  width:50%;
+  margin:auto;
+}
+
+body{
+  background-image: url("/assets/img/bg.jpg");
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-attachment: local;
+}
