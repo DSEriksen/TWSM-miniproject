@@ -26,6 +26,13 @@ import { HttpClientModule } from '@angular/common/http';
 import { HomeComponent } from './home/home.component';
 import { ResumeComponent } from './resume/resume.component';
 import { ContactComponent } from './contact/contact.component';
+import { RegisterComponent } from './register/register.component';
+import { LoginComponent } from './login/login.component';
+import { EventsComponent } from './events/events.component';
+import { SpecialEventsComponent } from './special-events/special-events.component';
+import { AuthService } from './auth.service';
+import { EventService } from './event.service';
+import { AuthGuard } from './auth.guard';
 
 @NgModule({
   declarations: [
@@ -36,6 +43,10 @@ import { ContactComponent } from './contact/contact.component';
     HomeComponent,
     ResumeComponent,
     ContactComponent,
+    RegisterComponent,
+    LoginComponent,
+    EventsComponent,
+    SpecialEventsComponent
   ],
   imports: [
     BrowserModule,
@@ -53,7 +64,7 @@ import { ContactComponent } from './contact/contact.component';
     MatGridListModule,
     RouterModule.forRoot(appRoutes)
   ],
-  providers: [],
+  providers: [AuthService, EventService, AuthGuard],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

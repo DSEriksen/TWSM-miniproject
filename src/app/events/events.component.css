@@ -1,0 +1,47 @@
+mat-grid-tile {
+  background-size: 100% 100%;
+}
+mat-grid-list {
+  margin-top: 1rem;
+}
+
+.textContainer{
+  background-color: rgba(100,100,100, 50);
+  width: 100%;
+}
+h1 {
+  color: rgb(255, 255, 255);
+  letter-spacing: 5px;
+  text-shadow: 0px 5px black;
+}
+span {
+  font-weight: bold;
+}
+
+#schoolevent{
+  background-color: red;
+  background-image:url("/assets/img/schoolevent_BG.JPG");
+  background-size: 100% 100%;
+}
+#workevent{
+  background-color: red;
+  background-image:url("/assets/img/workplace_bg.JPG");
+  background-size: 100% 100%;
+}
+
+#otherevent{
+  background-color: red;
+  background-image:url("/assets/img/workplace_bg.JPG");
+  background-size: 100% 100%;
+}
+
+#mainContainer {
+  margin-top: 1%;
+  /*background-color:red;*/
+}
+
+#container {
+  /*background-color: blue;*/
+  width: 50%;
+  height: 50%;
+}
